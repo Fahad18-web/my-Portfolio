@@ -1,3 +1,22 @@
+const closeBtn = document.getElementById('close')
+const mblLinks = document.getElementById('mblLinks')
+const menuBtn = document.getElementById('menu')
+
+
+menuBtn.addEventListener('mouseenter',()=>{
+    mblLinks.classList.toggle('.hidden')
+})
+
+
+closeBtn.addEventListener('click',()=>{
+    mblLinks.remove()
+})
+
+
+
+
+
+
 let tl = gsap.timeline()
 
 tl.from('.logo h1',{
@@ -182,3 +201,4 @@ tl.from('.right-sd img',{
     x:-30,
     opacity:0
 })
+
