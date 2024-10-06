@@ -13,7 +13,7 @@
 <body class="bg-gradient-to-r from-green-800 to-zinc-800 w-full h-screen font-mono">
     <div class="navbar w-full  p-2 flex justify-between items-center">
         <div class="logo">
-            <h1 class="text-2xl p-2 font-bold text-white">Portfolio</h1>
+            <h1 class="text-4xl p-2 font-bold text-white max-sm:text-2xl">Portfolio</h1>
         </div>
         <div class="links flex gap-10 text-white p-2 text-xl capitalize font-bold max-sm:hidden" id="links">
             <a href="#">home</a>
@@ -22,19 +22,17 @@
             <a href="#skills">skills</a>
             <a href="#project">project</a>
         </div>
-        <div class="menu font-bold sm:hidden max-sm:block text-white text-2xl" id="menu">
-            <i class="ri-menu-fill"></i>
+        <div class="menu font-bold sm:hidden max-sm:block text-white text-2xl " id="menu">
+            <i class="ri-menu-fill max-sm:text-white text-2xl "></i>
         </div>
-        <div  id="mblLinks" class="mblNav hidden fixed w-full p-2 top-0 left-0 bg-gradient-to-r from-green-800 to-zinc-800  h-screen z-10  max-sm:hidden ">
-            <div class="mblLinks capitalize flex flex-col gap-10 p-2 text-white text-2xl">
-                <a href="#">home</a>
-                <a href="#about">about</a>
-                <a href="#contact">contact</a>
-                <a href="#skills">skills</a>
-                <a href="#project">project</a>
-            </div>
-            <div id="close" class="cross absolute top-0 right-0 text-white text-3xl p-2">
-                <i class="ri-close-circle-fill"></i>
+
+        <div id="mobile-menu" class="hidden max-sm:absolute z-10 rounded-sm w-full p-2 top-[10%] left-0 bg-gradient-to-r from-green-800 to-zinc-800 sm:hidden">
+            <div class="text-xl">
+              <a href="#home" class="block px-3 py-2 font-mono rounded-md  text-white hover:text-green-800 hover:bg-white">Home</a>
+              <a href="#about" class="block px-3 py-2 rounded-md  text-white hover:text-green-800 hover:bg-white">About</a>
+              <a href="#contact" class="block px-3 py-2 rounded-md  text-white hover:text-green-800 hover:bg-white">Contact</a>
+              <a href="#skills" class="block px-3 py-2 rounded-md  text-white hover:text-green-800 hover:bg-white">Skills</a>
+              <a href="#project" class="block px-3 py-2 rounded-md  text-white hover:text-green-800 hover:bg-white">Projects</a>
             </div>
         </div>
     </div>
@@ -91,7 +89,7 @@
              </div>
              <div class="tail flex flex-col items-center justify-center text-center bg-white p-2 rounded-md gap-5 text-[#166534] w-[30vw] max-sm:w-[40vw]">
                 <img src="assets/Tailwind CSS.svg" alt="" class="w-[10vw]">
-                <p class="sm:text-2xl max-sm:text-xl">Tailwind Css</p>
+                <p class="sm:text-2xl max-sm:text-xl">Tailwind</p>
              </div>
         </div>
     </div>

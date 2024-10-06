@@ -1,15 +1,10 @@
 const closeBtn = document.getElementById('close')
-const mblLinks = document.getElementById('mblLinks')
+const mblLinks = document.getElementById('mobile-menu')
 const menuBtn = document.getElementById('menu')
 
 
-menuBtn.addEventListener('mouseenter',()=>{
-    mblLinks.classList.toggle('.hidden')
-})
-
-
-closeBtn.addEventListener('click',()=>{
-    mblLinks.remove()
+menuBtn.addEventListener('click',()=>{
+    mblLinks.classList.toggle('hidden')
 })
 
 
