@@ -8,10 +8,6 @@ menuBtn.addEventListener('click',()=>{
 })
 
 
-
-
-
-
 let tl = gsap.timeline()
 
 tl.from('.logo h1',{
